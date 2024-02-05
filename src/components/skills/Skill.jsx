@@ -35,7 +35,7 @@ function Skill() {
                
               <div className=" flex flex-col gap-6  w-3/4  my-5 md:w-[90%]">
                 <SkillList logo={<IoLogoHtml5 />}    name={"HTML/CSS"} />
-                <SkillList logo={<SiTailwindcss />}  name={"Tailwind CSS"} />
+                <SkillList logo={<SiTailwindcss />}  name={"TailwindCSS"} />
                 <SkillList logo={<SiJavascript />}   name={"Javascript"} />
                 <SkillList logo={<FaReact />}        name={"React Js"} />
                 <SkillList logo={<SiRedux />}        name={"Redux"} />
@@ -58,8 +58,8 @@ function Skill() {
             </div>
           </div>
           {/* right box */}
-          <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
-            <div className="first2 flex flex-col gap-10">
+          <div className="right relative flex-1  flex  p-5 gap-10  items-center justify-center sm:w-full">
+            <div className="first2 flex flex-col  gap-10">
               <SkillCard logo={<IoLogoNodejs />} black={"white"} white={"black"} skill={"Node Js"} />
               <SkillCard logo={<SiMongodb />} black={"white"} white={"black"}skill={"MongoDB"} />
             </div>

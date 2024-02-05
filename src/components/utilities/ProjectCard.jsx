@@ -32,7 +32,7 @@ function ProjectCard({ width }) {
                 <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
                 {width === '380px' ? data.desc1 : data.desc}
                 </p>
-                <div className=" flex items-center justify-center gap-4">
+                <div className=" flex items-center justify-center sm:gap-0 gap-4">
                   <Link
                     to={data.link}
                     target="_blank"

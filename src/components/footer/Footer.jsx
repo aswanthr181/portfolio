@@ -4,6 +4,7 @@ import {FaTelegramPlane} from 'react-icons/fa'
 import {IoLogoWhatsapp} from 'react-icons/io'
 import {RiInstagramFill} from 'react-icons/ri'
 import {FiMail} from 'react-icons/fi'
+import {MdEmail} from 'react-icons/md'
 import {FaPhone} from 'react-icons/fa'
 
 function Footer() {
@@ -24,6 +25,15 @@ function Footer() {
             <p>Telegram</p>
           </a>
           <a 
+          data-aos="fade-up" data-aos-duration="1400"
+
+            href="mailto:aswanthr181@gmail.com"
+            className="box font-medium text-white  flex items-center justify-center flex-col"
+          >
+            <MdEmail  className=" text-black text-3xl hover:scale-125 cursor-pointer" />
+            <p>EMail</p>
+          </a>
+          <a 
           data-aos="fade-up" data-aos-duration="1200"
 
             href="https://wa.me/917356791418"
@@ -31,32 +41,14 @@ function Footer() {
           >
             <IoLogoWhatsapp className=" text-black text-3xl hover:scale-125 cursor-pointer" />
             <p>WhatsApp</p>
-          </a>
-          {/* <a 
-          data-aos="fade-up" data-aos-duration="1400"
-
-            href="https://www.instagram.com/aswanth_r__/"
-            className="box font-medium text-white  flex items-center justify-center flex-col"
-          >
-            <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />
-            <p>Instagram</p>
-          </a> */}
-          <a 
-          data-aos="fade-up" data-aos-duration="1400"
-
-            href="mailto:aswanthr181@gmail.com"
-            className="box font-medium text-white  flex items-center justify-center flex-col"
-          >
-            <FiMail className=" text-black text-3xl hover:scale-125 cursor-pointer" />
-            <p>Mail</p>
-          </a>
+          </a>          
           <a 
           data-aos="fade-up" data-aos-duration="1400"
 
             href="tel:+917356791418"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
-            <FaPhone className=" text-black text-3xl hover:scale-125 cursor-pointer" />
+            <FaPhone  className=" text-black text-3xl hover:scale-125 cursor-pointer" />
             <p>Phone</p>
           </a>
         </div>

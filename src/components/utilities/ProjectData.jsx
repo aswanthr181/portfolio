@@ -1,8 +1,8 @@
 const img1='/ProjPhoto/explorease.jpg'
 const img2='/ProjPhoto/apertures1.jpg'
-const mini1='/ProjPhoto/olx1.jpg'
-const mini2='/ProjPhoto/weather.png'
-const mini3='/ProjPhoto/netflix.jpg'
+const mini1='/ProjPhoto/olx2.jpg'
+const mini2='/ProjPhoto/weather1.jpg'
+const mini3='/ProjPhoto/netflix1.jpg'
 export const data = [
     {
       id: 1,
